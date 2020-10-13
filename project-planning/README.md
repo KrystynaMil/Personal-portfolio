@@ -12,11 +12,9 @@
 
 ## Brainstorming
 
-> What user needs and business problem does this app cover?
-> Who is the user?
-> What is the business?
-
-
+> - What user needs and business problem does this app cover?
+> - Who is the user?
+> - What is the business?
 
 ---
 
