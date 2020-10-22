@@ -192,4 +192,50 @@ html{
     color: rgb(247, 3, 56);
     background: none;
 }
-/* */
+
+/*  SERVICES SECTION */
+
+.services, .teams{
+    color:rgb(219, 210, 210);
+    background: rgb(17, 17, 17);
+}
+.services .title::before,
+.teams .title::before{
+    background: rgb(219, 210, 210);
+}
+.services .title::after,
+.teams .title::after{
+    background: rgb(17, 17, 17);
+    content: "what i provide";
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: rgb(41, 41, 41);
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: rgb(247, 3, 56);
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: rgb(247, 3, 56);
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color:rgb(219, 210, 210);
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
