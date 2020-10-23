@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -13,13 +12,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./evaluation/init.js'></script>
 </head>
-
 <body>
-<!--NAVBAR-->
-<div class="scroll-up-btn">
+    <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
@@ -30,7 +25,7 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Projects</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -38,64 +33,66 @@
             </div>
         </div>
     </nav>
-     <!-- HOME SECTION -->
-     <section class="home" id="home">
-      <div class="max-width">
-          <div class="home-content">
-              <div class="text-1">Hello, my name is</div>
-              <div class="text-2">Krystyna Miliutyna</div>
-              <div class="text-3">And I'm a <span class="typing"></span></div>
-              <a href="#">Interested</a>
-          </div>
-      </div>
-  </section>
- 
-<!-- About Section -->
-<section class="about" id="about">
-  <div class="max-width">
-      <h2 class="title">About me</h2>
-      <div class="about-content">
-          <div class="column left">
-              <img src="/Images/profile.jpg" alt="">
-          </div>
-          <div class="column right">
-              <div class="text">I'm Krystyna and I'm a <span class="typing-2"></span></div>
-              <p> Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-              <a href="#">Download CV</a>
-          </div>
-      </div>
-  </div>
-</section>
- <!-- Services section  -->
- <section class="services" id="services">
-    <div class="max-width">
-        <h2 class="title">My services</h2>
-        <div class="serv-content">
-            <div class="card">
-                <div class="box">
-                    <i class="fas fa-paint-brush"></i>
-                    <div class="text">Web Design</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Krystyna Miliutyna</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#">Interested</a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <i class="fas fa-code"></i>
-                    <div class="text">Web Development</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <i class="fab fa-app-store-ios"></i>
-                    <div class="text">App Design and Development</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
-            </div>
-           </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profile-1.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Krystyna and I'm a <span class="typing-2"></span></div>
+                    <p> Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                       <i class="fas fa-code"></i> 
+                        <div class="text">Web Development</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-figma"></i>
+                        <div class="text">Apps Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
 
     <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
@@ -152,6 +149,52 @@
             </div>
         </div>
     </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-4.jpeg" alt="">
+                        <div class="text">Project name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-2.jpeg" alt="">
+                        <div class="text">Project name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-3.jpeg" alt="">
+                        <div class="text">Project name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-4.jpeg" alt="">
+                        <div class="text">Project name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-5.jpeg" alt="">
+                        <div class="text">Project name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
