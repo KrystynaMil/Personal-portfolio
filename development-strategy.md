@@ -62,6 +62,14 @@ __As a user I want to see the initial page when I load the site__
 - Add services section.
 - Styling the element.
 
-### Task ...
+### SKills
+- This user story is developed on branch `skills`.
+- This branch is merged to `master` branch after completion.
 
----
+#### HTML and CSS
+
+- Add skills section.
+- Styling the element.
+
+
+---- 
